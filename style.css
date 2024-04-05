@@ -25,8 +25,9 @@ body {
     text-decoration: none;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: #32b9cd;
+    cursor: pointer;
 }
 
 .header {
@@ -46,14 +47,14 @@ body {
 
 /* BANNER */
 
-.banner{
+.banner {
     background-image: url("./assets/imagens/bg-jelly-fish-para_outras_pags.png");
     height: 500px;
     color: white;
 
 }
 
-.banner .container{
+.banner .container {
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -71,7 +72,7 @@ body {
     height: 500px;
 }
 
-.social .container{
+.social .container {
     align-items: center;
     height: 100%;
     width: 100%;
