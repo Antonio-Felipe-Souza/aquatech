@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navbar {
+    width: 300px;
+    color: #e3b062;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #32b9cd;
+    cursor: pointer;
+}
+
+.header {
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container {
+    justify-content: space-between;
+
+}
+
+/* BANNER */
+
+.banner {
+    display: flex;
+    background-image: url("./assets/imagens/bg-jelly-fish-para_outras_pags.png");
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner .container {
+    height: 500px;
+    width: 500px;
+    background-color:#E5E5E5;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.banner .container p{
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    color: #DC869E;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 0;
+}
+
+input{
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 30px;;
+    border: #32b9cd 3px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.banner .container h1{
+    border-top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #DC869E;
+}
+
+button {
+    width: 30%;
+    height: 35px;
+    background-color: #E6005A;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+
+.infos{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}

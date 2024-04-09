@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> AquaTech | Cadastro</title>
+    <link rel="shortcut icon" href="./assets/imagens/favicon2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="cadastro.css">
 </head>
+
 <body>
-    <h1>Estamos na tela de cadastro</h1>
+
+    <!--HEADER-->
+
+    <div class="header">
+        <div class=container>
+            <h1 class="titulo"> AquaTech </h1>
+            <ul class="navbar">
+                <a>
+                    <li>Inicial</li>
+                </a>
+
+                <a>
+                    <li>Simulador</li>
+                </a>
+
+                <li>|</li>
+
+                <a>
+                    <li>Login</li>
+                </a>
+
+                <a href="./cadastro.html">
+                    <li>Cadastro</li>
+                </a>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!--BANNER-->
+
+    <div class="banner">
+        <div class="container">
+            <h1>Bem-vindo!</h1>
+            <div class="infos">
+                <p>Nome:</p>
+                <input type="text" id="ipt_nome" class="input" placeholder="Seu nome">
+                <p>E-mail:</p>
+                <input type="text" id="ipt_email" class="input" placeholder="meuemail@provedor.com">
+                <p>Senha:</p>
+                <input type="password" id="ipt_senha" class="input" placeholder="******">
+                <p>Confirmação de Senha:</p>
+                <input type="password" id="ipt_confirmacao" placeholder="******">
+            </div>
+            <br>
+            <button>Cadastrar</button>
+        </div>
+    </div>
 </body>
+
 </html>
